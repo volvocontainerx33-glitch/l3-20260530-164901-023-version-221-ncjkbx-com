@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>纪录片库-热门电影大全</title>
+  <meta name="description" content="纪录片库分类页，纪实影像、人物观察与真实题材的专题片库。">
+  <meta name="keywords" content="热门电影大全,热门影片,电影片库,高清播放,精选电影,电影分类,在线观看,纪录片库">
+  <meta name="renderer" content="webkit">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script defer src="../assets/app.js"></script>
+</head>
+<body>
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="brand" href="../index.html" aria-label="热门电影大全">
+      <span class="brand-icon">▶</span>
+      <span class="brand-copy">
+        <strong>热门电影大全</strong>
+        <em>高清片库</em>
+      </span>
+    </a>
+    <button class="menu-button" type="button" data-menu-button aria-label="打开导航">☰</button>
+    <div class="nav-links" data-menu-panel>
+      <a href="../index.html">首页</a>
+      <a href="../categories.html">分类</a>
+      <a href="../ranking.html">排行榜</a>
+      <a href="../search.html">搜索筛选</a>
+      <a href="../archive.html">全部影片</a>
+    </div>
+  </div>
+</nav>
+<main class="page-main">
+  <section class="page-hero compact-hero category-hero">
+    <div>
+      <p>纪录</p>
+      <h1>纪录片库</h1>
+      <span>纪实影像、人物观察与真实题材的专题片库。</span>
+    </div>
+  </section>
+  <section class="content-section">
+    <form class="filter-panel" data-filter-form>
+  <input type="search" name="q" placeholder="输入片名、简介或标签" autocomplete="off">
+  <select name="region">
+    <option value="">全部地区</option>
+    <option value="中国大陆">中国大陆</option><option value="美国">美国</option><option value="日本">日本</option><option value="中国香港">中国香港</option><option value="韩国">韩国</option><option value="英国">英国</option><option value="中国台湾">中国台湾</option><option value="法国">法国</option><option value="中国">中国</option><option value="西班牙">西班牙</option><option value="意大利">意大利</option><option value="泰国">泰国</option><option value="香港">香港</option><option value="德国">德国</option><option value="印度">印度</option><option value="俄罗斯">俄罗斯</option><option value="法国 / 比利时">法国 / 比利时</option><option value="台湾">台湾</option><option value="中国香港 / 中国大陆">中国香港 / 中国大陆</option><option value="澳大利亚">澳大利亚</option><option value="巴西">巴西</option><option value="中国内地">中国内地</option><option value="英国 / 美国">英国 / 美国</option><option value="墨西哥">墨西哥</option>
+  </select>
+  <select name="type">
+    <option value="">全部类型</option>
+    <option value="电影">电影</option><option value="剧集">剧集</option><option value="电视剧">电视剧</option><option value="动画剧集">动画剧集</option><option value="动画电影">动画电影</option><option value="动画">动画</option><option value="综艺">综艺</option><option value="纪录片">纪录片</option><option value="网络剧">网络剧</option><option value="动漫">动漫</option><option value="网剧">网剧</option><option value="电影 / 动画">电影 / 动画</option><option value="网络电影">网络电影</option><option value="动画短片">动画短片</option><option value="综艺 / 晚会">综艺 / 晚会</option><option value="综艺/晚会">综艺/晚会</option><option value="电影（动画）">电影（动画）</option><option value="TV动画">TV动画</option><option value="综艺 / 剧集">综艺 / 剧集</option><option value="电影 剧情，爱情">电影 剧情，爱情</option>
+  </select>
+  <select name="genre">
+    <option value="">全部题材</option>
+    <option value="剧情">剧情</option><option value="喜剧">喜剧</option><option value="悬疑">悬疑</option><option value="爱情">爱情</option><option value="动作">动作</option><option value="奇幻">奇幻</option><option value="家庭">家庭</option><option value="犯罪">犯罪</option><option value="惊悚">惊悚</option><option value="科幻">科幻</option><option value="冒险">冒险</option><option value="恐怖">恐怖</option><option value="历史">历史</option><option value="战争">战争</option><option value="古装">古装</option><option value="传记">传记</option><option value="动画">动画</option><option value="音乐">音乐</option><option value="青春">青春</option><option value="灾难">灾难</option><option value="运动">运动</option><option value="心理">心理</option><option value="武侠">武侠</option><option value="文艺">文艺</option><option value="同性">同性</option><option value="情色">情色</option><option value="年代">年代</option><option value="校园">校园</option><option value="职场">职场</option><option value="公路">公路</option>
+  </select>
+  <select name="year">
+    <option value="">全部年份</option>
+    <option value="2030">2030</option><option value="2029">2029</option><option value="2028">2028</option><option value="2027">2027</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option>
+  </select>
+</form>
+    <div class="movie-grid archive-grid" data-filter-grid>
+      <a class="movie-card" href="../movies/movie-0116.html" data-title="死亡乐队" data-region="美国" data-type="电影" data-year="1976" data-genre="剧情 / 音乐 / 喜剧" data-tags="摇滚, 伪纪录片风格, 荒诞, 讽刺">
+  <span class="poster-frame">
+    <img src="../116.jpg" alt="死亡乐队" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>死亡乐队</strong>
+    <em>美国 · 1976 · 电影</em>
+    <span class="movie-desc">一支名叫“死亡”的朋克乐队，坚信摇滚能杀死听众，而他们唯一的使命就是写出那首必杀曲。</span>
+    <span class="tag-row"><span>摇滚</span><span>伪纪录片风格</span><span>荒诞</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0152.html" data-title="人生七年2" data-region="英国" data-type="纪录片" data-year="1970" data-genre="纪录片, 社会" data-tags="人生轨迹, 阶级, 英国社会, 真实记录, 时间跨度">
+  <span class="poster-frame">
+    <img src="../2.jpg" alt="人生七年2" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>人生七年2</strong>
+    <em>英国 · 1970 · 纪录片</em>
+    <span class="movie-desc">时隔七年，导演再次找到那14个七岁孩子，这次他们14岁了，有的开始叛逆，有的已经认命。</span>
+    <span class="tag-row"><span>人生轨迹</span><span>阶级</span><span>英国社会</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0180.html" data-title="小学风云第二季" data-region="美国" data-type="电视剧" data-year="2025" data-genre="喜剧 / 职场 / 伪纪录片" data-tags="莫克式搞笑, 教师群像, 社会议题">
+  <span class="poster-frame">
+    <img src="../30.jpg" alt="小学风云第二季" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>小学风云第二季</strong>
+    <em>美国 · 2025 · 电视剧</em>
+    <span class="movie-desc">上一季的学区拨款成功了吗？并没有，但老师们学会了用TikTok特效和AI写教案来对抗“上面来的白痴”。</span>
+    <span class="tag-row"><span>莫克式搞笑</span><span>教师群像</span><span>社会议题</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0268.html" data-title="《我的阿勒泰》旷野音乐会" data-region="中国大陆" data-type="综艺 / 特别节目" data-year="2025" data-genre="音乐 / 纪实" data-tags="李娟, 阿勒泰, 草原音乐会, 民谣, 纪录片式综艺">
+  <span class="poster-frame">
+    <img src="../118.jpg" alt="《我的阿勒泰》旷野音乐会" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>《我的阿勒泰》旷野音乐会</strong>
+    <em>中国大陆 · 2025 · 综艺 / 特别节目</em>
+    <span class="movie-desc">在新疆阿勒泰的冬牧场上，一场没有舞台、没有观众的私人音乐会，唱歌的人和听歌的人都是即将消失的游牧民族最后一代。</span>
+    <span class="tag-row"><span>李娟</span><span>阿勒泰</span><span>草原音乐会</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0329.html" data-title="“岚”孤注一掷演唱会" data-region="日本" data-type="演唱会电影" data-year="2024" data-genre="音乐 / 纪录" data-tags="偶像, 最后一场, 隐藏机关, 粉丝泪崩">
+  <span class="poster-frame">
+    <img src="../29.jpg" alt="“岚”孤注一掷演唱会" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>“岚”孤注一掷演唱会</strong>
+    <em>日本 · 2024 · 演唱会电影</em>
+    <span class="movie-desc">五人组合同台宣布这是最后一次合体演唱会，但唱到第三首歌时舞台突然变成了法庭。</span>
+    <span class="tag-row"><span>偶像</span><span>最后一场</span><span>隐藏机关</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0374.html" data-title="爱马士" data-region="中国大陆" data-type="电影" data-year="2023" data-genre="纪录片 / 人物 / 体育" data-tags="马术, 孤独症, 治愈, 人与动物, 真实改编">
+  <span class="poster-frame">
+    <img src="../74.jpg" alt="爱马士" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>爱马士</strong>
+    <em>中国大陆 · 2023 · 电影</em>
+    <span class="movie-desc">深圳自闭症少年小宇被所有人放弃，直到一匹同样受过创伤的退役赛马走进了他的世界。</span>
+    <span class="tag-row"><span>马术</span><span>孤独症</span><span>治愈</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0397.html" data-title="配乐大师：约翰·威廉姆斯" data-region="美国" data-type="纪录片" data-year="2024" data-genre="纪录片 / 音乐 / 传记" data-tags="约翰·威廉姆斯, 电影配乐, 幕后, 星战, 斯皮尔伯格">
+  <span class="poster-frame">
+    <img src="../97.jpg" alt="配乐大师：约翰·威廉姆斯" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>配乐大师：约翰·威廉姆斯</strong>
+    <em>美国 · 2024 · 纪录片</em>
+    <span class="movie-desc">91岁的约翰·威廉姆斯最后一次指挥柏林爱乐，镜头记录下他为《星球大战》《辛德勒名单》创作旋律的隐秘心流。</span>
+    <span class="tag-row"><span>约翰·威廉姆斯</span><span>电影配乐</span><span>幕后</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0491.html" data-title="少女邦" data-region="美国" data-type="电影" data-year="2024" data-genre="纪录片 / 剧情" data-tags="女性成长, 政治, 青春">
+  <span class="poster-frame">
+    <img src="../41.jpg" alt="少女邦" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>少女邦</strong>
+    <em>美国 · 2024 · 电影</em>
+    <span class="movie-desc">一年一度“男孩州”政治夏令营终于对女孩开放，两位少女为了州长之位展开了激烈的竞选厮杀。</span>
+    <span class="tag-row"><span>女性成长</span><span>政治</span><span>青春</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0527.html" data-title="无限全纪录" data-region="中国大陆" data-type="电影" data-year="2024" data-genre="科幻 / 伪纪录片" data-tags="元宇宙，意识上传，伪纪录，科技伦理，现实崩塌">
+  <span class="poster-frame">
+    <img src="../77.jpg" alt="无限全纪录" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>无限全纪录</strong>
+    <em>中国大陆 · 2024 · 电影</em>
+    <span class="movie-desc">一支纪录片团队跟踪拍摄“永生计划”志愿者，却发现进入虚拟世界的人，在现实中都变成了只会流口水的植物人。</span>
+    <span class="tag-row"><span>元宇宙</span><span>意识上传</span><span>伪纪录</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0543.html" data-title="轮椅上的竞技" data-region="美国" data-type="电影" data-year="2005" data-genre="纪录片，体育，励志" data-tags="残奥会，橄榄球，真实故事，励志，团队精神">
+  <span class="poster-frame">
+    <img src="../93.jpg" alt="轮椅上的竞技" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>轮椅上的竞技</strong>
+    <em>美国 · 2005 · 电影</em>
+    <span class="movie-desc">一群脊髓损伤的退伍军人组建轮椅橄榄球队，目标只有一个：击败连续三届冠军加拿大队。</span>
+    <span class="tag-row"><span>残奥会</span><span>橄榄球</span><span>真实故事</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0584.html" data-title="我是希斯·莱杰" data-region="澳大利亚" data-type="纪录片" data-year="2024" data-genre="传记" data-tags="演员, 幕后, 精神肖像, 怀念">
+  <span class="poster-frame">
+    <img src="../134.jpg" alt="我是希斯·莱杰" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>我是希斯·莱杰</strong>
+    <em>澳大利亚 · 2024 · 纪录片</em>
+    <span class="movie-desc">从未公开的希斯·莱杰自拍影像与日记，由他本人“亲自”讲述自己从澳洲少年到“小丑”的艺术灵魂旅程。</span>
+    <span class="tag-row"><span>演员</span><span>幕后</span><span>精神肖像</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0609.html" data-title="格兰特·莫里森：与神对话" data-region="英国" data-type="电影" data-year="2021" data-genre="纪录片, 传记" data-tags="漫画编剧, 精神病学, 超现实主义">
+  <span class="poster-frame">
+    <img src="../9.jpg" alt="格兰特·莫里森：与神对话" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>格兰特·莫里森：与神对话</strong>
+    <em>英国 · 2021 · 电影</em>
+    <span class="movie-desc">深度探秘《蝙蝠侠》《传送门》的鬼才编剧格兰特·莫里森，他声称小时候和外星人对话。</span>
+    <span class="tag-row"><span>漫画编剧</span><span>精神病学</span><span>超现实主义</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0681.html" data-title="捷克斯洛伐克 1968" data-region="捷克" data-type="纪录片" data-year="2023" data-genre="历史，记录" data-tags="布拉格之春，档案，口述史">
+  <span class="poster-frame">
+    <img src="../81.jpg" alt="捷克斯洛伐克 1968" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>捷克斯洛伐克 1968</strong>
+    <em>捷克 · 2023 · 纪录片</em>
+    <span class="movie-desc">尘封半个世纪的磁带被打开，普通亲历者讲述“布拉格之春”前后改变一生的八个月。</span>
+    <span class="tag-row"><span>布拉格之春</span><span>档案</span><span>口述史</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0785.html" data-title="宫崎骏与苍鹭" data-region="日本" data-type="纪录片" data-year="2024" data-genre="纪录片，传记" data-tags="宫崎骏，吉卜力，苍鹭，创作，隐居">
+  <span class="poster-frame">
+    <img src="../35.jpg" alt="宫崎骏与苍鹭" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>宫崎骏与苍鹭</strong>
+    <em>日本 · 2024 · 纪录片</em>
+    <span class="movie-desc">三年贴身跟拍，纪录宫崎骏“最后一部作品”的诞生，以及他与一只苍鹭的神秘友谊。</span>
+    <span class="tag-row"><span>宫崎骏</span><span>吉卜力</span><span>苍鹭</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0793.html" data-title="猎魔人：制作特辑" data-region="美国" data-type="剧集 / 特别篇" data-year="2023" data-genre="纪录片 / 奇幻" data-tags="幕后，特效化妆，动作设计，花絮">
+  <span class="poster-frame">
+    <img src="../43.jpg" alt="猎魔人：制作特辑" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>猎魔人：制作特辑</strong>
+    <em>美国 · 2023 · 剧集 / 特别篇</em>
+    <span class="movie-desc">当银幕上的利维亚的杰洛特卸下妆容，真正的魔法来自片场的汗水与泥浆。</span>
+    <span class="tag-row"><span>幕后</span><span>特效化妆</span><span>动作设计</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0857.html" data-title="罗杰·华特斯：我们+他们" data-region="英国" data-type="电影" data-year="2024" data-genre="纪录片, 音乐" data-tags="摇滚, 政治, 演唱会, 思想">
+  <span class="poster-frame">
+    <img src="../107.jpg" alt="罗杰·华特斯：我们+他们" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>罗杰·华特斯：我们+他们</strong>
+    <em>英国 · 2024 · 电影</em>
+    <span class="movie-desc">平克·弗洛伊德传奇人物罗杰·华特斯，用一场破纪录的全球巡演解剖“我们”与“他们”的战争。</span>
+    <span class="tag-row"><span>摇滚</span><span>政治</span><span>演唱会</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0916.html" data-title="摄魄惊魂" data-region="英国" data-type="电影" data-year="2020" data-genre="恐怖 / 惊悚" data-tags="都市传说, 伪纪录片, 鬼影, 心理恐惧">
+  <span class="poster-frame">
+    <img src="../16.jpg" alt="摄魄惊魂" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>摄魄惊魂</strong>
+    <em>英国 · 2020 · 电影</em>
+    <span class="movie-desc">一个热衷偷拍别人的狗仔队，在偷拍过程中意外拍到了都市传说“裂口女”的真实身影，死亡名单开始在他的照片中应验。</span>
+    <span class="tag-row"><span>都市传说</span><span>伪纪录片</span><span>鬼影</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0943.html" data-title="外星第九号计划" data-region="美国" data-type="电影" data-year="2030" data-genre="科幻 / 喜剧 / 伪纪录片" data-tags="外星人, B级片, 致敬, 恶搞, 伪纪录片">
+  <span class="poster-frame">
+    <img src="../43.jpg" alt="外星第九号计划" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>外星第九号计划</strong>
+    <em>美国 · 2030 · 电影</em>
+    <span class="movie-desc">一群外星人来到地球，不是为了征服，而是为了抢救他们不小心遗落在这里的第九号“星际快递包裹”。</span>
+    <span class="tag-row"><span>外星人</span><span>B级片</span><span>致敬</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0961.html" data-title="热带惊雷" data-region="美国" data-type="电影" data-year="2025" data-genre="动作 / 喜剧 / 战争" data-tags="伪纪录片, 跨国救援, 黑色幽默, 丛林战">
+  <span class="poster-frame">
+    <img src="../61.jpg" alt="热带惊雷" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>热带惊雷</strong>
+    <em>美国 · 2025 · 电影</em>
+    <span class="movie-desc">一群过气动作片明星在东南亚拍反恐电影时，误闯进真实的反政府军大本营。</span>
+    <span class="tag-row"><span>伪纪录片</span><span>跨国救援</span><span>黑色幽默</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-0983.html" data-title="街头帮派：如何到达芝麻街" data-region="美国" data-type="电影" data-year="2021" data-genre="纪录片， 传记" data-tags="幕后故事， 儿童教育， 理想主义， 社会运动">
+  <span class="poster-frame">
+    <img src="../83.jpg" alt="街头帮派：如何到达芝麻街" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>街头帮派：如何到达芝麻街</strong>
+    <em>美国 · 2021 · 电影</em>
+    <span class="movie-desc">一群年轻的艺术家和社会活动家，如何在动荡的60年代，用木偶和笑声“入侵”了美国电视。</span>
+    <span class="tag-row"><span>幕后故事</span><span>儿童教育</span><span>理想主义</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1041.html" data-title="小学风云第二季" data-region="美国" data-type="剧集" data-year="2026" data-genre="喜剧, 教育" data-tags="职场, 伪纪录片, 社会讽刺, 教师">
+  <span class="poster-frame">
+    <img src="../141.jpg" alt="小学风云第二季" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>小学风云第二季</strong>
+    <em>美国 · 2026 · 剧集</em>
+    <span class="movie-desc">资金被砍、家长奇葩，这群倒霉老师刚解决学区危机，新来的AI教学系统又要把他们全员“优化”了。</span>
+    <span class="tag-row"><span>职场</span><span>伪纪录片</span><span>社会讽刺</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1067.html" data-title="体坛秘史：耻辱堂" data-region="美国" data-type="纪录片" data-year="2023" data-genre="纪录片, 体育" data-tags="兴奋剂, 丑闻, 真实罪案, 运动员, 网飞">
+  <span class="poster-frame">
+    <img src="../17.jpg" alt="体坛秘史：耻辱堂" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>体坛秘史：耻辱堂</strong>
+    <em>美国 · 2023 · 纪录片</em>
+    <span class="movie-desc">前奥运冠军麦克自曝使用兴奋剂三十年，但他不是为了金牌，而是为了活命。</span>
+    <span class="tag-row"><span>兴奋剂</span><span>丑闻</span><span>真实罪案</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1129.html" data-title="我的抗战" data-region="中国大陆" data-type="纪录片" data-year="2010" data-genre="纪录片, 历史, 战争" data-tags="抗日战争, 口述历史, 老兵, 民间记忆, 黑白影像">
+  <span class="poster-frame">
+    <img src="../79.jpg" alt="我的抗战" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>我的抗战</strong>
+    <em>中国大陆 · 2010 · 纪录片</em>
+    <span class="movie-desc">历时两年寻访，三十余位平均年龄90岁的抗战老兵，首次在镜头前讲述他们从未公开的个人记忆。</span>
+    <span class="tag-row"><span>抗日战争</span><span>口述历史</span><span>老兵</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1130.html" data-title="某种爱的纪录" data-region="法国" data-type="电影" data-year="2025" data-genre="爱情 / 剧情" data-tags="日记体, 不伦之恋, 黑白摄影">
+  <span class="poster-frame">
+    <img src="../80.jpg" alt="某种爱的纪录" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>某种爱的纪录</strong>
+    <em>法国 · 2025 · 电影</em>
+    <span class="movie-desc">一本尘封日记，揭开二战时期女作家与敌方军官之间危险又致命的爱情纪录。</span>
+    <span class="tag-row"><span>日记体</span><span>不伦之恋</span><span>黑白摄影</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1173.html" data-title="林来疯" data-region="美国" data-type="电影" data-year="2023" data-genre="纪录片 / 体育 / 传记" data-tags="林书豪, 亚裔, 篮球, 励志, 种族歧视">
+  <span class="poster-frame">
+    <img src="../123.jpg" alt="林来疯" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>林来疯</strong>
+    <em>美国 · 2023 · 电影</em>
+    <span class="movie-desc">从纽约流浪汉的沙发到麦迪逊广场花园，“林疯狂”七天的真实录像和从未公开的内心独白。</span>
+    <span class="tag-row"><span>林书豪</span><span>亚裔</span><span>篮球</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1191.html" data-title="美国硬核" data-region="美国" data-type="纪录片" data-year="2025" data-genre="音乐、历史、社会" data-tags="朋克、硬核、80年代、亚文化、口述历史">
+  <span class="poster-frame">
+    <img src="../141.jpg" alt="美国硬核" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>美国硬核</strong>
+    <em>美国 · 2025 · 纪录片</em>
+    <span class="movie-desc">通过从未公开的录像和采访，还原80年代初美国硬核朋克从地下爆发的狂躁五年。</span>
+    <span class="tag-row"><span>朋克</span><span>硬核</span><span>80年代</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1245.html" data-title="荷索吃鞋子" data-region="德国" data-type="电影" data-year="2023" data-genre="纪录片、传记、行为艺术" data-tags="沃纳·赫尔佐格，电影赌约，行为艺术，幕后传奇">
+  <span class="poster-frame">
+    <img src="../45.jpg" alt="荷索吃鞋子" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>荷索吃鞋子</strong>
+    <em>德国 · 2023 · 电影</em>
+    <span class="movie-desc">还原电影史上最著名赌约：赫尔佐格当众吃下自己的皮鞋，只为兑现对年轻导演的承诺。</span>
+    <span class="tag-row"><span>沃纳·赫尔佐格</span><span>电影赌约</span><span>行为艺术</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1256.html" data-title="大独裁者秘史" data-region="德国 / 美国" data-type="电影" data-year="2024" data-genre="剧情 / 传记 / 历史" data-tags="政治、黑色幽默、伪纪录片、权力、疯狂">
+  <span class="poster-frame">
+    <img src="../56.jpg" alt="大独裁者秘史" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>大独裁者秘史</strong>
+    <em>德国 / 美国 · 2024 · 电影</em>
+    <span class="movie-desc">一本从未公开的日记，揭开了某位独裁者私下的真实生活：其实他是个社恐。</span>
+    <span class="tag-row"><span>政治</span><span>黑色幽默</span><span>伪纪录片</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1284.html" data-title="美国豚鼠2：血腥冲击" data-region="美国" data-type="电影" data-year="2015" data-genre="恐怖 / 虐杀" data-tags="邪典, 伪纪录, 血腥, 实验">
+  <span class="poster-frame">
+    <img src="../84.jpg" alt="美国豚鼠2：血腥冲击" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>美国豚鼠2：血腥冲击</strong>
+    <em>美国 · 2015 · 电影</em>
+    <span class="movie-desc">一个地下视频小组潜入神秘庄园，亲历了一场将人体与工业机械粗暴结合的狂欢地狱。</span>
+    <span class="tag-row"><span>邪典</span><span>伪纪录</span><span>血腥</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1465.html" data-title="诡屋惊魂" data-region="美国" data-type="电影" data-year="2023" data-genre="恐怖/惊悚" data-tags="限时解谜, 密室逃脱, 灵异直播, 单人求生, 伪纪录片">
+  <span class="poster-frame">
+    <img src="../115.jpg" alt="诡屋惊魂" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>诡屋惊魂</strong>
+    <em>美国 · 2023 · 电影</em>
+    <span class="movie-desc">网红主播独闯废弃百年凶宅，却发现每扇门后都直播着她童年最恐惧的记忆。</span>
+    <span class="tag-row"><span>限时解谜</span><span>密室逃脱</span><span>灵异直播</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1493.html" data-title="万物之生" data-region="中国大陆" data-type="纪录片" data-year="2024" data-genre="自然 / 人文" data-tags="微观， 生命， 哲学， 8K， 沉浸式">
+  <span class="poster-frame">
+    <img src="../143.jpg" alt="万物之生" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>万物之生</strong>
+    <em>中国大陆 · 2024 · 纪录片</em>
+    <span class="movie-desc">一部没有旁白、只有声音和画面的纪录片，用8K镜头捕捉一滴水里的一整个宇宙。 从一滴水到一片沙漠，从一只蚂蚁的触角到银河系的旋臂，万物遵循同一套物理法则生长与消亡。</span>
+    <span class="tag-row"><span>微观</span><span>生命</span><span>哲学</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1545.html" data-title="新野人记" data-region="中国" data-type="电影" data-year="2024" data-genre="悬疑 / 冒险" data-tags="丛林探险, 神秘生物, 伪纪录片">
+  <span class="poster-frame">
+    <img src="../45.jpg" alt="新野人记" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>新野人记</strong>
+    <em>中国 · 2024 · 电影</em>
+    <span class="movie-desc">一支科考队深入神农架寻找野人，却发现真正的“野人”不是猩猩，而是他们自己。</span>
+    <span class="tag-row"><span>丛林探险</span><span>神秘生物</span><span>伪纪录片</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1565.html" data-title="人生七年1" data-region="日本" data-type="纪录片" data-year="1992" data-genre="纪录, 社会" data-tags="成长追踪, 阶层固化, 平成时代">
+  <span class="poster-frame">
+    <img src="../65.jpg" alt="人生七年1" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>人生七年1</strong>
+    <em>日本 · 1992 · 纪录片</em>
+    <span class="movie-desc">1992年，节目组选取了7名7岁的日本孩子，记录他们眼中泡沫破裂后的童年梦想。</span>
+    <span class="tag-row"><span>成长追踪</span><span>阶层固化</span><span>平成时代</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1589.html" data-title="袋鼠谷" data-region="澳大利亚" data-type="纪录片" data-year="2024" data-genre="自然, 纪录" data-tags="生态, 萌物, 震撼画面">
+  <span class="poster-frame">
+    <img src="../89.jpg" alt="袋鼠谷" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>袋鼠谷</strong>
+    <em>澳大利亚 · 2024 · 纪录片</em>
+    <span class="movie-desc">在澳洲隐秘峡谷里，一只红袋鼠的生存，决定了整个山谷物种的平衡。</span>
+    <span class="tag-row"><span>生态</span><span>萌物</span><span>震撼画面</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1634.html" data-title="国史演义" data-region="中国大陆" data-type="纪录片" data-year="2018" data-genre="历史， 传记" data-tags="口述历史， 人物传奇， 考据， 野史， 学者点评">
+  <span class="poster-frame">
+    <img src="../134.jpg" alt="国史演义" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>国史演义</strong>
+    <em>中国大陆 · 2018 · 纪录片</em>
+    <span class="movie-desc">十二位被正史简笔带过的“小人物”，用文物与故纸堆拼凑出波澜壮阔的一生。</span>
+    <span class="tag-row"><span>口述历史</span><span>人物传奇</span><span>考据</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1673.html" data-title="再会长江" data-region="中国大陆" data-type="电影纪录片" data-year="2026" data-genre="纪录" data-tags="长江, 变迁, 人文">
+  <span class="poster-frame">
+    <img src="../23.jpg" alt="再会长江" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>再会长江</strong>
+    <em>中国大陆 · 2026 · 电影纪录片</em>
+    <span class="movie-desc">一位日本导演时隔十年重走长江路，镜头下不仅是巨变的山河，更是被时代洪流改变的一张张面孔。</span>
+    <span class="tag-row"><span>长江</span><span>变迁</span><span>人文</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1744.html" data-title="夺命惊吓" data-region="韩国" data-type="电影" data-year="2024" data-genre="恐怖惊悚" data-tags="直播，凶宅，诅咒，伪纪录">
+  <span class="poster-frame">
+    <img src="../94.jpg" alt="夺命惊吓" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>夺命惊吓</strong>
+    <em>韩国 · 2024 · 电影</em>
+    <span class="movie-desc">网红主播闯入韩国最凶鬼屋直播，却发现凶宅会记住每一个观众的ID。</span>
+    <span class="tag-row"><span>直播</span><span>凶宅</span><span>诅咒</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1874.html" data-title="真实电影" data-region="法国" data-type="电影" data-year="2025" data-genre="剧情、喜剧、讽刺" data-tags="电影制作、荒诞、媒体讽刺、伪纪录片">
+  <span class="poster-frame">
+    <img src="../74.jpg" alt="真实电影" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>真实电影</strong>
+    <em>法国 · 2025 · 电影</em>
+    <span class="movie-desc">一个电影剧组宣布要拍一部“完全真实的电影”，然后一切失控了。</span>
+    <span class="tag-row"><span>电影制作</span><span>荒诞</span><span>媒体讽刺</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1910.html" data-title="动物频道" data-region="英国 / 美国" data-type="电影" data-year="2025" data-genre="科幻 / 惊悚" data-tags="伪纪录片, 动物反叛, 信号劫持">
+  <span class="poster-frame">
+    <img src="../110.jpg" alt="动物频道" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>动物频道</strong>
+    <em>英国 / 美国 · 2025 · 电影</em>
+    <span class="movie-desc">全球电视信号被劫持，所有频道都在24小时直播动物“处决”人类的隐秘画面。</span>
+    <span class="tag-row"><span>伪纪录片</span><span>动物反叛</span><span>信号劫持</span></span>
+  </span>
+</a><a class="movie-card" href="../movies/movie-1994.html" data-title="摇滚师匠：细野晴臣" data-region="日本" data-type="电影" data-year="2024" data-genre="纪录片， 音乐" data-tags="音乐人传记， YMO， 实验音乐">
+  <span class="poster-frame">
+    <img src="../44.jpg" alt="摇滚师匠：细野晴臣" loading="lazy">
+    
+    <span class="play-dot">▶</span>
+  </span>
+  <span class="movie-info">
+    <strong>摇滚师匠：细野晴臣</strong>
+    <em>日本 · 2024 · 电影</em>
+    <span class="movie-desc">跟随镜头潜入日本音乐教父细野晴臣的创作密室，听他讲述半个世纪的迷幻漂流。</span>
+    <span class="tag-row"><span>音乐人传记</span><span>YMO</span><span>实验音乐</span></span>
+  </span>
+</a>
+    </div>
+    <div class="empty-state" data-empty-state hidden>没有找到匹配影片</div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <a class="footer-logo" href="../index.html">热门电影大全</a>
+      <p>精选电影、热门影片、分类片库与高清在线播放入口。</p>
+    </div>
+    <div class="footer-links">
+      <a href="../categories.html">分类浏览</a>
+      <a href="../ranking.html">热播排行</a>
+      <a href="../search.html">搜索筛选</a>
+      <a href="../archive.html">全部影片</a>
+    </div>
+  </div>
+  <div class="copyright">© 2026 热门电影大全 · 高清视频在线播放</div>
+</footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
